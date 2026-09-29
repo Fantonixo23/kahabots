@@ -1,0 +1,44 @@
+{
+  "link_demo": "",
+  "link_registro": "",
+  "saludos": ["Hola", "Buenas", "Buen día"],
+  "variantes": [
+    {
+      "id": "v1_directa",
+      "peso": 1,
+      "texto": "{saludo} {nombre}, te escribo por Kahabox: una app para llevar el stock y cobrar desde el celular, escaneando con la cámara. Grabé una demo corta de cómo funciona: {link_demo} Podés probarla gratis 14 días. ¿Te interesa que te muestre? (Si no, respondé NO y no te escribo más.)"
+    },
+    {
+      "id": "v2_problema",
+      "peso": 1,
+      "texto": "{saludo}, ¿en {nombre} llevan el stock en Excel o cuaderno? Con Kahabox ves cuánto queda de cada producto, color o talle desde el celular y evitás vender lo que ya no hay. Demo de 1 minuto: {link_demo} Podés probarla gratis por 14 días. ¿Querés verla? (Respondé NO si no querés más mensajes.)"
+    },
+    {
+      "id": "v3_corta",
+      "peso": 1,
+      "texto": "{saludo} {nombre}! Hice una app para controlar el stock y cobrar desde el celular, y funciona aunque se corte el internet. Mirá la demo: {link_demo} Probala gratis 14 días. ¿Te la muestro en tu local? (NO para dejar de recibir.)"
+    },
+    {
+      "id": "v4_prueba",
+      "peso": 1,
+      "texto": "{saludo}, {nombre}. Te ofrezco probar Kahabox 14 días sin costo: escaneás productos con el celular, cobrás e imprimís el ticket por Bluetooth. Acá está la demo: {link_demo} ¿Te armo la cuenta de prueba? (NO si no te interesa.)"
+    },
+    {
+      "id": "v5_rubro",
+      "peso": 1,
+      "texto": "{saludo} {nombre}. Hice Kahabox, una app para llevar el stock y cobrar desde el celular. Para un negocio como el tuyo: {beneficio} Demo de 1 minuto: {link_demo} Podés probarla gratis 14 días. ¿Te la muestro? (Respondé NO y no te escribo más.)"
+    }
+  ],
+  "recordatorio": "{saludo} {nombre}, te escribí hace unos días por Kahabox. Va de nuevo por si no viste el video: {link_demo} Si no es el momento, respondé NO y no te insisto.",
+  "prueba_14_dias": {
+    "dia_1": "¡Hola {nombre}! Ya tenés Kahabox. Lo primero es cargar los productos: podés escanearlos con la cámara o importar el Excel que ya usás. ¿Querés que te ayude a armarlo? Contame cuántos productos manejás y te paso el paso a paso.",
+    "dia_2": "Buenas {nombre}, ¿pudiste entrar a Kahabox? Si se te trabó algo o no entendés cómo cargar el primer producto, contame y te guío.",
+    "dia_7": "{saludo} {nombre}, ¿cómo viene yendo Kahabox? ¿Se te está costando algo o querés que carguemos más productos?",
+    "dia_12": "{saludo} {nombre}. ¿Cómo viene yendo todo? Contame cuántos locales tenés y cuántas personas cargan stock, así te paso el plan que te conviene. (NO si no querés más mensajes.)"
+  },
+  "respuestas_plantilla": {
+    "pidio_demo": "Buen día, {nombre}. Claro, te paso el video de una vez: {link_demo} ¿Querés que te ayude a cargar los primeros productos?",
+    "no_interesado": "Gracias por responder {nombre}, te dejo de escribir entonces. Que te vaya muy bien.",
+    "precio": "Buen día, {nombre}. Te armo la propuesta a medida: contame cuántos locales tenés, cuántas personas cargan stock y cuántos productos manejás, y te paso el plan que te conviene."
+  }
+}

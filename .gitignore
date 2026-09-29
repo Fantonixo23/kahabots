@@ -1,0 +1,12 @@
+.env
+contactos.db
+contactos.db.backup
+backups/
+__pycache__/
+*.pyc
+salida/
+datos/*.pdf
+datos/**/*.pdf
+datos/*.csv
+datos/**/*.csv
+datos/ocr/*.png
